@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+    height: 64px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerHeaderBox{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profilBox{
+    width: 230px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.Gmail{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.Image{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.Flask{
+    width: 24px;
+    height: 24px;
+}
+
+.Menu{
+    width: 24px;
+    height: 24px;
+}
+
+.Profil{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo{
+    margin-top: 76px;
+    width: 272px;
+    height: 92px;
+}
+
+
+.SearchBlank{
+    width: 561px;
+    height: 48px;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.Glass{
+    width: 48px;
+    height: 48px;
+}
+
+.Blank{
+    width: 410px;
+    height: 45px;
+    border-width: 0px;
+}
+
+.Microphone{
+    width: 48px;
+    height: 48px;
+}
+
+.Camera{
+    width: 48px;
+    height: 48px;
+}

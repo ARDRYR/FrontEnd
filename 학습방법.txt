@@ -1,0 +1,37 @@
+학습방법
+MDN문서, 공식문서
+
+HTML태그
+div
+하나의 상자 정도로 생각, 한 줄을 자기 차지로 만듦
+span
+하나의 상자 정도로 생각, 글자 만큼 차지
+
+h1 - h6
+
+ul, li 가운데 점으로 하나씩 표현
+
+input type
+
+button
+
+hover 마우스를 올리기 ( hover: none)은 해당 기능을 없다고 하는것 
+
+CSS
+tag, class, id 세가지의 선택자 중에서 id > class > tag순서라 덮어쓸 수 있음.
+
+박스 모델
+
+레이아웃구성방법
+display 
+
+Flexbox
+grow shrink basis (너무 어려워서 넘어감)
+
+ position, static, relative, absolute, fixed, sticky
+absolute를 쓸 때 부모 요소에 relative를 넣어야함
+
+반응형 웹
+좋은 예시 : IBM
+안좋은 예시 : 아우누리
+

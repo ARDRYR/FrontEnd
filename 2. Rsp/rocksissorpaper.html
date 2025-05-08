@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가위바위보 게임</title>
+  <link rel="stylesheet" href="rspStyle.css">
+</head>
+<body>
+  <div class="Container">
+    <div class="gameResult">
+      <span class="resultTitle">게임 결과 : </span>
+      <div class="whoWin"> </div>
+    </div>
+    <div class="playerWinCount">
+      <span class="playerWinTitle">플레이어 승리 횟수 : </span>
+      <div class="playerCount">0</div>
+    </div>
+
+    <div class="computerWinCount">
+      <span class="computerWinTitle">컴퓨터 승리 횟수 : </span>
+      <div class="computerCount">0</div>
+    </div>
+
+    <div class="playerPick">
+      <span class="playerPickTitle">플레이어 선택 결과 : </span>
+      <div class="playerResult"> </div>
+    </div>
+
+    <div class="computerPick">
+      <span class="computerPickTitle">컴퓨터 선택 결과 : </span>
+      <div class="computerResult"> </div>
+    </div>
+
+    <div class="allButtons">
+      <button class="sissorsButton" id="sissor">가위</button>
+      <button class="rockButton" id="rock">바위</button>
+      <button class="paperButton" id="paper">보</button>
+    </div>
+  </div>
+  <script src="./rspSystem.js"></script>
+</body>
+</html>

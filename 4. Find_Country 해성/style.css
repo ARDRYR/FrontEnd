@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  width: 80%;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.recommend-wrapper {
+  width: 80%;
+}
+
+.recommend {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.recommend-item {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+}
+
+.country-name {
+  font-size: 16px;
+  font-weight: 600;
+}

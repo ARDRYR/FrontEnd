@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로또 번호 생성기</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="mainbox">
+    <header>
+      <span class="title">로또 번호 생성기</span>
+      <span class="subtitle">행운의 번호를 생성해보세요!</span>
+    </header>
+    <div class="container">
+      <div class="createNumber">
+        <span class="createTitle">번호 생성</span>
+        <div class="number">
+          <span class="num1">?</span>
+          <span class="num2">?</span>
+          <span class="num3">?</span>
+          <span class="num4">?</span>
+          <span class="num5">?</span>
+          <span class="num6">?</span>
+        </div>
+        <button class="createNumberButton">번호 생성하기</button>
+      </div>
+      <div class="buyLotto">
+        <span class="buyLottoTitle">로또 구매하기</span>
+          
+          
+        <div class="moneyBox">
+          <span class="howMany">구매 수량: </span>
+          <input id="blank" type="number">
+        </div>
+        <div class="totalMoneyBox">
+          <span class="totalMoney">총 금액: </span>
+          <span class="money">0</span>
+          <span class="resultMoney">원 (1장당 1,000원)</span>
+        </div>
+          <button class="buyLottoButton">구매하기</button>
+          
+      </div>
+    </div>
+    <div class="checkResultBox">
+      <div class="checkResultBoxFrame">
+        <span clas="checkResultTitle">당첨 결과 확인.</span>
+        <span class="thisWeek">이번 주 당첨 번호: </span>
+       <div class="checkNumber">
+          <div class="thisWeekNumber"></div>
+        </div>
+        <span class="myResult">내가 구매한 번호: </span>
+        <div class="lottoResult">
+          <div class="myNumber"></div>
+        </div>
+        <div class="checkCorrectBox">
+          <span class="correct">결과: </span>
+          <span class="correctCount">0</span>
+          <span class="correctFinish">개 일치</span>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <script src="system.js"></script>
+</body>
+</html>
